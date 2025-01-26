@@ -1,0 +1,61 @@
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 6fr);
+    gap: 10px;
+    margin-top: 10px;
+    width: 75%;
+}
+
+.card1 {
+    background-color: rgb(193, 254, 234);
+    border: 2px solid rgb(126, 56, 56);
+    border-radius: 8px;
+    box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 8px;
+}
+
+.bestoffer {
+    color: rgb(1, 104, 1);
+}
+
+.card1:hover {
+    transform: translateY(-5px);
+    box-shadow: 4px 6px 8px rgba(21, 21, 21, 0.8);
+    background-color: lightcoral;
+}
+
+.service-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin-top: 16px;
+    width: 100%;
+
+}
+
+.s1 {
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 75%;
+    padding: 10px;
+    background-color: rgb(254, 230, 97);
+    box-shadow: 4px 6px 8px rgba(21, 21, 21, 0.8);
+    ;
+}
+
+.boximg {
+    border: 1px solid rgb(3, 119, 119);
+}
+
+.boximg:hover {
+    border: 2px solid rgb(3, 119, 119);
+    box-shadow: 4px 6px 8px rgba(10, 92, 124, 0.6);
+}
+
+.color {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+}
